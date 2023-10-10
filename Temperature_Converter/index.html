@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <nav class="navbar">
+        <div><h1>Bharat Intern Task 1</h1></div>
+      </nav>
+      <br />
+      <br />
+      <h1>Temperature Converter</h1>
+      <div class="container">
+        <div class="input-div">
+          <label>Celsius</label> <br />
+          <input class="inp" type="number" value="0" id="cel" />
+        </div>
+        <br />
+        <br />
+        <div class="input">
+          <label>Fahrenheit</label> <br />
+          <input class="inp" type="number" value="32" id="fah" />
+        </div>
+      </div>
+    </div>
+    <script>
+      var cel = document.getElementById("cel");
+      var fah = document.getElementById("fah");
+
+      cel.addEventListener("input", function () {
+        let c = this.value;
+        let f = (c * 9) / 5 + 3;
+        fah.value = f;
+      });
+    </script>
+  </body>
+</html>

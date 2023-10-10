@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 200px 100px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  padding: 0% 33%;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 1;
+  border: 2px solid;
+  border-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  background-color: aqua;
+  border: 2px solid;
+  border-color: black;
+}
+.input-div {
+  display: inline-block;
+}
+.inp {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+}
+
+label {
+  font-size: 22px;
+}
